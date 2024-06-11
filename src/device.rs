@@ -5,7 +5,7 @@ use anyhow::{bail, Result};
 use crate::device_error_raw;
 
 pub struct Device {
-    pub(crate) handle: embree4_sys::RTCDevice,
+    pub handle: embree4_sys::RTCDevice,
 }
 
 impl Device {
